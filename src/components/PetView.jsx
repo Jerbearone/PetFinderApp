@@ -17,7 +17,7 @@ export default function PetView() {
     return (<div>
 
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+            <Card.Img variant="top" src={pet.peturl}/>
             <Card.Body>
                 <Card.Title>{pet.name}</Card.Title>
                 <Card.Text>

@@ -8,7 +8,7 @@ export default function Owner() {
     return (
     <div>
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+            <Card.Img variant="top" src={pet.ownerurl} />
             <Card.Body>
                 <Card.Title>{pet.owner}</Card.Title>
                 <Card.Text>
